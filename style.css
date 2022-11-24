@@ -1,0 +1,217 @@
+    * {
+        padding: 0;
+        margin: 30;
+        box-sizing: border-box;
+        font-family: "Oswald", sans-serif;
+    }
+    .body-1{ 
+        width:100%;
+        background: rgb(160,160,160);
+        background: linear-gradient(90deg, rgb(255, 106, 106) 0%, rgba(121,9,9,1) 58%); 
+        height: 450px;
+    }
+
+    header{
+        text-align: right;
+        width: 100%;
+        height: 50px;
+        top: 0px;
+        left: 0px;
+    }
+            
+    .menu-bar{
+        width: 100%;
+         height: 100%;
+    }
+
+    .menu-bar ul{
+        list-style: none;
+        display: inline-flex;
+        font-size: 15px;
+    }
+    
+    .menu-bar ul li{
+        margin-right: 40px;
+    }
+
+    
+    .menu-bar ul li a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .container{
+        position: absolute;
+        top: 125px;
+        left: 150px;
+        width: 450px;
+        height: 300px;
+    }
+
+    .container h1{
+        font-size: 33px;
+        color: white;
+    }
+
+    .container p{
+        font-size: 15px;
+        color: white;
+    }
+
+    .container .play{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    .body-1 .material-symbols-outlined {
+        font-size: 40px;
+        color: white;
+    }
+    .description{
+        position: relative;
+        left: 50px;
+        top: -43px;
+    }
+    .container-1{
+        height: 200px;
+        width: 100%;
+        position: relative;
+        top: 380px;
+        left:-8px;
+        text-align: bottom;
+    }
+    
+    .container-1 img{
+        width: 100%;
+        height: 150px;
+        position: relative;
+        top: -120px;
+        left:8px;
+    }
+
+    .body-2{
+        height: 500px;
+        width: 100%;
+    }
+
+    .grid{
+        margin-top: 100px !important;
+        margin-bottom: -90px !important;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 4em;
+        position: relative;
+        top: -20px;
+    }
+
+    .cell{
+        width: 100%;
+        height: 300px;    
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        padding: 20px;
+        float: left;
+
+    }
+
+    .grid .logo{
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        color: white;
+        background: purple;
+    }
+
+    .grid .logo i{
+        position: relative;
+        top: 17px;
+        left: 18px;
+    }
+
+    .grid .heading{
+        position: relative;
+        left: 10px;
+        font-size: 19px;
+    }
+
+    .grid .description{
+        position: relative;
+        left: 1px;
+        top: -5px;
+        font-size: 15px;
+    }
+
+    .muck{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 100px;
+        width: 100%;
+    }
+
+    .muck button{
+        position: relative;
+        color: white;
+        left: -5px;
+        width: 140px;
+        height: 40px;
+        border-radius: 25px;
+        background: linear-gradient(260deg,rgb(161, 0, 0), rgba(180, 0, 0, 0.368));
+        border: 0px;
+        margin: 40px;
+    }
+    .body-3{
+        height: 600px;
+        width:100%;
+        background: linear-gradient(90deg, rgb(255, 106, 106) 0%, rgba(121,9,9,1) 58%); 
+    }
+    
+    .body-3 .container-1 img{
+        height: 150px;
+        position: relative;
+        left: 8px;
+        top:-380px;
+
+    }
+
+    .body-3 .container-2{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 1em;
+        border-bottom: 1px solid white;
+    }
+    .body-3 .container-2 .heading{
+        color: white;
+        font-size: 20px;
+    }
+
+    .body-3 .container-2 .sub-container-2{
+        width: 100%;
+        margin: 15px;
+    }
+
+    .body-3 .sub-container-2 .description{
+        color: white;
+        position: relative;
+        top: 15px;
+    }
+
+    .body-3 .sub-container-2 .logo{
+        margin: 5px;
+        color: white;
+        width: 30px;
+        height: 30px;
+        background: linear-gradient(90deg, rgb(255, 130, 130) 0%, red 58% );
+        text-align: center;
+        position: relative;
+        top: 20px;
+    }
+
+    
+    .body-3 .credit {
+        color:white;
+        text-align: center;
+    }
